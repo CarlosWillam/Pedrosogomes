@@ -16,33 +16,52 @@ body{
     background-size: 100px;
     width: 100%;
     height: 100%;
-    
+  
 }
 .bloco_1{
     background-color: #293b5100;
-    margin: 5%;
+    margin: 4%;
 }
 .bloco_1  ,h1,h2{
     color:#000000;
 }
 .bloco_2{
     background-color: #ffffff;
-    margin: 5%;
+    margin: 3%;
 }
 
 .bloco_3{
-    background-color: #157ddf;
-}
+        background-color: #293b5100;
+        margin: 3%;
+    }
+
+    .bloco_3  ,h1,h2{
+        color:#000000;
+    }
 
 .titulo{
-    font-size: 500%;
-    text-align: center, left;
-    display: inline-block;
-    color: #001352;
+    font-size: 450%;
+    text-align:  center;
+    color: #f88212;
     margin-left:15% ;
     margin-right: 15%;
     font-family: Garamond ;
-
+    margin-top: -2%;
+}
+.titulo5{
+    
+    text-align:  center;
+    color: #ffffff;
+   
+    font-family: Garamond ;
+}
+.fut{
+    background-image: linear-gradient(to right, #fa8822, #f83600);
+    padding: 50px 0;
+    margin-top:-3%;
+    margin-left:18% ;
+    margin-right: 18%;
+    font-size: 400%;
 }
 .text{
     font-size: 200%;
@@ -51,6 +70,7 @@ body{
     display: inline-block;
     margin-left:15% ;
     margin-right: 15%;
+    margin-top: -2%;
 }
 .t2{
     margin-top: 18px;
@@ -94,15 +114,14 @@ button:hover{
 hr{
  margin-top: 2%;
  margin-block-end: 50px;
- margin-left: 60px;
-margin-right: 60px;
+ margin-left: 15%;
+margin-right: 15%;
 }
 .titulo1{
     font-family: Garamond ;
     font-size:500%;
-    text-align: center, flex;
-    display: inline-block;
-    color: #001352;
+    text-align: center,;
+    color: #f88212;
     margin-left:15% ;
     margin-right: 15%;
 }
@@ -186,9 +205,16 @@ footer p{
     margin-top: 5%;
     
 }footer {
-    background-color: #415aca;
+    background-color: #f88212;
     padding: 50px 0;
+}
 
+.fut{
+    background-color: #f88212;
+    padding: 50px 0;
+    margin-top:-3%;
+    margin-left:15% ;
+    margin-right: 15%;
 }
 .container-footer{
     max-width: 1400px;
@@ -224,11 +250,10 @@ footer p{
     
 }
 .footer-col ul li{
-    margin: 30px 0;
+    margin: 10px 0;
 }
 .footer-col ul li a{
     font-size: 16px;
-    text-transform: capitalize;
     color: white;
     text-decoration: none;
     font-weight: 400;
@@ -253,10 +278,10 @@ footer p{
     }
 }
 .titulo_3{
-    color: #001352;
+    color: #f88212;
     text-align: center;
     font-family: Garamond ;
-    margin-top: 10px;
+    margin-top: 3px;
     font-size: 500%;
   }
  .textos-container {
@@ -308,4 +333,11 @@ footer p{
 }
 .re123re{
     display: flex;
+}
+.imgroda{
+    width: 100%;
+    height: 100%;
+}
+.fundozap{
+    margin-top: 3%;
 }
