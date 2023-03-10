@@ -105,14 +105,14 @@
     text-align: center;
     font-size: 135%;
     margin-right: 379px;
-    margin-left: 381.1px;
-    padding: 15px 15px;
+    margin-left: 381.5px;
+    padding: 10px 10px;
     font-family: sans-serif;
     margin-bottom: 10px;
 }
 .text_final {
     font-size: 140%;
-    margin: 3%;
+    margin: 0%;
     padding: 1%;
     font-family: sans-serif;
 }
@@ -131,20 +131,6 @@
     font-family: sans-serif;
     font-size: 360%;
 }
-.container{
-    width: 100%;
-    overflow: auto;
-    
-    
-}
-
-.content_end{
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
-    margin-right: 379px;
-    margin-left: 379px;
-}
 .whatsapp-link {
     position: fixed;
     width: 60px;
@@ -159,37 +145,117 @@
     box-shadow: 1px 1px 2px #888;
     z-index: 1000;
   }
-  
   .fa-whatsapp {
     margin-top: 16px;
   }
-  .en {
-      display: flex;
-      margin-top: 5%;
-      margin-left: -8%;
+ 
+  .botão{
+    background-color: #29AC00;
+      margin-top: 1%;
+      font-size: 190%;
+     border-radius: 9px;
+     border: 0;
+     text-align: center;
+     display: inline-block;
+ 
+ }
+ .zap{
+     margin-top: 11px;
+     margin-left: 60px;
+     margin-right: 60px;
+     margin-block-end: 10px;
+     color: #fff;
+ }
+ @keyframes anima {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.10);
+    }
+}
+button:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} 
+.container {
+    margin: 190px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    padding: auto;
+    padding-left: 100px;
+    padding-top:100px;
+    padding-bottom:10px;
+    padding-right:100px;
+
+
+}
+.en, .en_1 {
+    display: inline-flex;
+    margin-top: -100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    font-family: sans-serif;
     
-  }
-  .TEX1 {
-    position: absolute;
-    margin: 3%;
-    margin-top: -2.5%;
-    width: 19%;
-  }
-  .TEX2 {
-    position: absolute;
-    margin: 3%;
-    margin-top: -2.5%;
-    width: 19%;
-  }
-  .TEX3 {
-    position: absolute;
-    margin: 3%;
-    margin-top: -2.5%;
-    width: 19%;
-  }
-  .TEX4 {
-    position: absolute;
-    margin: 3%;
-    margin-top: -2.5%;
-    width: 19%;
-  }
+}
+.icon_1 {
+    width: 50px;
+    height: 55px;
+    margin-right: 25px;
+}
+.TEX1 {
+    width: 50%;
+}
+.TEX2 {
+    width: 50%;
+}
+.TEX3 {
+    width: 50%;
+}
+.TEX4 {
+    width: 50%;
+}
+.content_end {
+    display: inline-flex;
+    width: 50%;
+   
+}
+main{
+    background-color: #000;
+    margin-top: -100px;
+}
+.img {
+    width: 300px;
+}
+.te{
+    font-size: 120%;
+    font-family: sans-serif;
+    color: #fff;
+}
+.foo {
+    display: inline-flex;
+
+}
+ main i {
+    color:#fff;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+      
+      
+      
