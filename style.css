@@ -12,51 +12,77 @@
 }
 .titulo {
     text-align: center;
-    color: rgb(248, 164, 7);
+    color:#f84f00;
     font-family: sans-serif;
-    font-size: 400%;
+    font-size: 80px;
     margin-top: 30%;
 }
 .titulo_1 {
     text-align: center;
-    color: rgb(248, 164, 7);
+    color: #f84f00;
     font-family: sans-serif;
-    font-size: 360%;
+    font-size: 35px;
 }
 .text_principal {
     text-align: center;
     color: #fff;
-    font-family: sans-serif;
-    font-size: 240%;
+    line-height: 50px;
+    font-size: 30px;
+    margin-left:-2% ;
+    margin-right:-1% ;
+    padding: 0.5%;
+    
 }
 .titulo_2 {
     text-align: center;
     margin-top: 30px;
     font-family: sans-serif;
     font-size: 360%;
-    color: rgb(248, 164, 7);
+    color:#f84f00;
 }
 .icon{
     width: 53px;
     height: 53px;
    
 }
+
 .icon_1 {
     width: 53px;
     height: 53px;
     display: flex;
     flex-wrap: wrap;
+    margin-right: 15px;
+}
+.icon_2 {
+    width: 40px;
+    height: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 27px;
+}
+.icon_3 {
+    width: 60px;
+    height: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}.icon_4 {
+    width: 54px;
+    height: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
 }
 .titulo_3 {
     text-align: center;
     margin-top: 30px;
     font-family: sans-serif;
     font-size: 360%;
-    color: rgb(248, 164, 7);
+    color:#f84f00;
 }
 .caixa-de-texto {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
@@ -64,13 +90,13 @@
   }
 .caixa-de-texto_2 {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px;
     z-index: 2;
     margin-top: -15%;
-    width: 50%;
+    width: 30%;
 }
 .content  {
     display: flex;
@@ -85,6 +111,7 @@
     padding: 1%;
     font-size: 120%;
     font-family: sans-serif;
+    line-height: 30px;
 }
 .text_3{
     text-align: center;
@@ -93,12 +120,13 @@
     margin-bottom: 10px;
     padding: 10px;
     font-family: sans-serif;
+    
 }
 .caixa {
     margin: auto;
     width: 70%;
     height: 90%;
-    background-color: rgb(248, 164, 7);
+  background-image: linear-gradient(to right, #fa8822, #f83600);
     border-radius: 2px;
 }
 .text_1 {
@@ -109,12 +137,14 @@
     padding: 10px 10px;
     font-family: sans-serif;
     margin-bottom: 10px;
+    line-height: 35px;
 }
 .text_final {
     font-size: 140%;
     margin: 0%;
     padding: 1%;
     font-family: sans-serif;
+    line-height: 35px;
 }
 .da {
     margin-right: 379px;
@@ -122,12 +152,12 @@
 }
 .end {
     background-image: url(); /* Andrew coloca uma imagem de fundo*/
-    background-color: #000000;
-    color: #fff;
+    background-color: #eceaea;
+    color: #353333;
 }
 .titulo_final {
     text-align: center;
-    color: rgb(248, 164, 7);
+    color:#f84f00;
     font-family: sans-serif;
     font-size: 360%;
 }
@@ -151,13 +181,13 @@
  
   .botão{
     background-color: #29AC00;
-      margin-top: 1%;
-      font-size: 190%;
-     border-radius: 9px;
-     border: 0;
-     text-align: center;
-     display: inline-block;
- 
+    margin-top: 1%;
+    font-size: 190%;
+    border-radius: 9px;
+    border: 0;
+    text-align: center;
+    display: inline-block;
+    overflow-x:auto;
  }
  .zap{
      margin-top: 11px;
@@ -165,6 +195,8 @@
      margin-right: 60px;
      margin-block-end: 10px;
      color: #fff;
+     overflow-x:auto;
+     
  }
  @keyframes anima {
     0%{
@@ -205,29 +237,37 @@ button:hover{
     
 }
 .icon_1 {
-    width: 50px;
+    width: 100px;
     height: 55px;
     margin-right: 25px;
 }
 .TEX1 {
     width: 50%;
+    line-height: 25px;
 }
 .TEX2 {
-    width: 50%;
+    width: 50;
+    line-height: 25px;
 }
+
 .TEX3 {
     width: 50%;
+    line-height: 25px;
 }
 .TEX4 {
     width: 50%;
+    line-height: 25px;
 }
 .content_end {
     display: inline-flex;
     width: 50%;
    
 }
+.ed{
+    display: inline-flex;
+}
 main{
-    background-color: #000;
+    background-image: linear-gradient(to right, #fa8822, #f83600);
     margin-top: -100px;
 }
 .img {
@@ -235,12 +275,12 @@ main{
 }
 .te{
     font-size: 120%;
-    font-family: sans-serif;
+    
     color: #fff;
 }
 .foo {
     display: inline-flex;
-
+    font-size: 80%;
 }
  main i {
     color:#fff;
